@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnmyf5v2g6c5f"]
+
+[ext_resource type="PackedScene" uid="uid://bxst76vmydse" path="res://objects/cube_collection.tscn" id="1_iepqm"]
+
+[node name="MainScene" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.916509, 0.400013, 0, -0.400013, 0.916509, 0, 2.03732, 5.39945)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.09998, 3.18616)
+omni_range = 7.643
+omni_attenuation = 0.00704101
+
+[node name="CubeCollection" parent="." instance=ExtResource("1_iepqm")]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxst76vmydse"]
+
+[ext_resource type="Script" path="res://objects/cube_collection.gd" id="1_kq6mi"]
+
+[node name="CubeCollection" type="Node3D"]
+script = ExtResource("1_kq6mi")

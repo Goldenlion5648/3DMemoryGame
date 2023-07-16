@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://1yxpsd7430fg"]
+
+[ext_resource type="Texture2D" uid="uid://lje452x70c0q" path="res://textures/squareOutline.png" id="1_e8np3"]
+
+[resource]
+albedo_color = Color(0, 0.368627, 0.92549, 1)
+albedo_texture = ExtResource("1_e8np3")
